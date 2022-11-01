@@ -33,6 +33,8 @@ dt.plot(data.index,data.loc[:,['Close']],color='C1')
 fig.autofmt_xdate()
 # save chart as a pdf to current folder
 fig.savefig(f'{asset}.jpg')
+# prompt
+fig.show()
 
 print('{:-^120}'.format('END OF DATA'))
 print("Press enter to exit...")
