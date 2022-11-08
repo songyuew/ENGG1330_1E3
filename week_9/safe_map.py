@@ -1,3 +1,7 @@
+#########################
+# Written by Hartono Jocelyn Pratama
+#########################
+
 biglist = []
 finallist = []
 
